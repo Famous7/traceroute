@@ -9,7 +9,7 @@ python3 traceroute using only socket module
 
 ## Example
  - ICMP
- ![ICMP](/img/ICMP.jpg)
+  ![ICMP](/img/ICMP.jpg)
 
  - UDP
- ![UDP](/img/UDP.jpg)
+  ![UDP](/img/UDP.jpg)

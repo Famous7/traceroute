@@ -93,7 +93,7 @@ def do_traceroute(hop_count, dst_addr, timeout, packet, rand_port_flag=False):
                 if got_response:
                     try:
                         node = '[{0}, {1}]'.format(socket.gethostbyaddr(addr[0])[0], addr[0])
-                    except socket.gaierror:
+                    except:
                         node = '[{0}, {1}]'.format(addr[0], addr[0])
                 else:
                     node = ''
